@@ -8,7 +8,7 @@ const Header = () => {
         <Navbar bg="dark" expand="lg" sticky="top" variant="dark" className="py-4" collapseOnSelect>
             
             <Container fluid="md">
-                <Navbar.Brand href="/portfolio" style={{fontSize:"26px", borderRight:"2px solid grey", padding:"0 10px"}}>Chan Shing Wai, William</Navbar.Brand>
+                <Navbar.Brand href="/portfolio-demo" style={{fontSize:"26px", borderRight:"2px solid grey", padding:"0 10px"}}>Chan Shing Wai, William</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
