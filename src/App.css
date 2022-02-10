@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.project{
+  transition: all 0.5s;
+}
+.project:hover {
+    box-shadow: 6px 5px 24px 12px rgba(0,0,0,0.15);
+    transform: scale(1.05);
+}
 
 @keyframes App-logo-spin {
   from {
