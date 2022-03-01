@@ -4,9 +4,9 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 
 const Projects = () => {
     return(
-        <Container fluid id="project" style={{backgroundColor: "#343a40", padding: "20px"}}>
+        <Container fluid id="project" className='bgimg'>
             
-            <h1 style={{width: "100%", textAlign: "center", marginBottom: "50px", marginTop: "20px", color: "#dee2e6"}}>Projects</h1>
+            <h1 className='title'>Projects</h1>
             <Row style={{justifyContent: "center", alignItems: "center", height: "100%"}}>
                 <Col sm={12} md={6} lg={4} className="project">
                     <Card style={{ width: '100%' }}>

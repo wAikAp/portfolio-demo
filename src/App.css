@@ -1,45 +1,62 @@
-.App {
-  text-align: center;
+body, html, #root, main{
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-.project{
+.navlink{
   transition: all 0.5s;
 }
-.project:hover {
-    box-shadow: 6px 5px 24px 12px rgba(0,0,0,0.15);
-    transform: scale(1.05);
+
+.navlink:hover{
+  transform: scale(1.3);
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
+.bgimg{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  width: 100%;
+  text-align: center; 
+  margin-bottom: 50px; 
+  margin-top: 20px;
+  color: #dee2e6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.typing {
+  
+  color: white;
+  height: 48px;
+  width: 390px;
+  border-right: 1px solid transparent;
+  animation: typing 2s steps(42, end), blink-caret .75s step-end infinite;
+  font-family: Consolas, Monaco;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+@keyframes typing {
   from {
-    transform: rotate(0deg);
+      width: 0;
   }
   to {
-    transform: rotate(360deg);
+      width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+      border-color: transparent;
+  }
+
+  50% {
+      border-color: currentColor;
   }
 }

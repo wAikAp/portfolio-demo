@@ -6,23 +6,34 @@
     margin: 0 10px;
 }
 
+#skill{
+    opacity: 0.95;
+    padding: 20px;
+    background-image: url("../images/bg2.jpeg");
+}
+
 .skill {
     margin: 20px 0;
     width: 50%;
     display: inline-block;
     padding: 15px 10px;
     text-align: center;
-    /* border-radius: 20px; */
+    border-radius: 2px;
     cursor: pointer;
     transition: all 0.5s;
-    
-    box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #6393f9, 5px 5px 15px 5px rgba(46, 43, 43, 0);
+    background-color: #fff;
+    box-shadow: 0px 20px 0px -10px #fff, 0px -20px 0px -10px #fff, 20px 0px 0px -10px #fff, -20px 0px 0px -10px #fff, 0px 0px 0px 10px #6393f9, 5px 5px 15px 5px rgba(46, 43, 43, 0);
 }
 
 .skill:hover {
     box-shadow: 0px 0px 0px 10px #033cb6, 6px 5px 24px 12px rgba(0,0,0,0.15);
+    background-color: #244a9b;
+    font-weight: bolder;
+    color: #fff;
     transform: scale(1.1);
 }
+
+
 @media screen and (max-width: 576px) {
     .skill {
         width: 85%;

@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Navbar bg="dark" expand="lg" sticky="top" variant="dark" className="py-4" collapseOnSelect>
+        <Navbar expand="lg" sticky="top" variant="dark" className="py-4" collapseOnSelect>
             
             <Container fluid="md">
                 <Navbar.Brand href="/portfolio-demo" style={{fontSize:"26px", borderRight:"2px solid grey", padding:"0 10px"}}>Chan Shing Wai, William</Navbar.Brand>
@@ -16,19 +16,10 @@ const Header = () => {
                         style={{padding: "0 10px"}}
                         navbarScroll
                     >
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#project">Projects</Nav.Link>
-                        <Nav.Link href="#skill">Skills</Nav.Link>
+                        <Nav.Link className='navlink' href="#about">About</Nav.Link>
+                        <Nav.Link className='navlink' href="#project">Projects</Nav.Link>
+                        <Nav.Link className='navlink' href="#skill">Skills</Nav.Link>
                     </Nav>
-                    <Button 
-                        href="#contact" 
-                        className="d-flex" 
-                        variant="outline-success" 
-                        size="md"
-                        style={{margin: "0 10px", maxWidth: "25vw", justifyContent: "center"}}
-                    >
-                        Contact Me
-                    </Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

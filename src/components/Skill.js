@@ -5,16 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-
-import skill from '../images/skill.png';
 import '../css/skill.css';
 
 library.add(fab);
 library.add(fas);
 const Skills = () => {
     return(
-        <Container fluid id="skill" style={{padding: "20px"}}>
-            <h1 style={{width: "100%", textAlign: "center", marginBottom: "50px", marginTop: "20px"}}>Skills</h1>
+        <Container fluid id="skill" className='bgimg'>
+            
+            <h1 className='title'>Skills</h1>
             <Row style={{justifyContent: "center", alignItems: "center", height: "100%"}}>
                 <Col sm={12} md={6} lg={6} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <div className='skill'>
