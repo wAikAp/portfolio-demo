@@ -1,7 +1,14 @@
 body, html, #root, main{
   height: 100%;
 }
-
+.project{
+  transition: all 0.5s;
+  /* box-shadow: 6px 5px 24px 12px rgba(0, 0, 0, 0.15); */
+}
+.project:hover{
+  
+  transform: scale(1.05);
+}
 .navlink{
   transition: all 0.5s;
 }
