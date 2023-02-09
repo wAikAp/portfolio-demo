@@ -35,9 +35,11 @@ const About = () => {
                         </tbody>
                     </table>
                     <h4 className='m-2' style={{fontWeight: "300"}}>
-                        I am a 
-                        <br/><b>Hong Kong Polytechnic Uuniversity's Student / <br/>NGIS Limited's Software Engineer</b>
-                        <br /> <br />.Net/PHP are my main programming languages. 
+                        I graduated from 
+                        <br/><b className='text-danger font-weight-bold'>Hong Kong Polytechnic University </b><br/><br/>
+                        <b className='font-weight-bolder'>An Analyst Programmer (Technical Lead)</b> Working at N<b className="text-success h4">G</b>IS
+
+                        <br /> <br />C#/PHP are my main programming languages. 
                     </h4>
                     <div className='blockquote-div blockstyle'>
                         <blockquote className="blockquote mb-0 ">
